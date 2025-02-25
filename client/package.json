@@ -1,0 +1,21 @@
+{
+    "name": "watchdog-client",
+    "version": "1.0.0",
+    "description": "This WebSocket client sends the host CPU's vitals to the watchdog-server.",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js"
+    },
+    "type": "module",
+    "keywords": [
+        "Node.js",
+        "Express.js",
+        "Socket.IO"
+    ],
+    "author": "Atanu",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.2",
+        "socket.io-client": "^4.8.1"
+    }
+}

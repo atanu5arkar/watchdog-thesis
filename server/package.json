@@ -1,0 +1,21 @@
+{
+    "name": "watchdog-server",
+    "version": "1.0.0",
+    "description": "It is a WebSocket server. ",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js"
+    },
+    "type": "module",
+    "keywords": [
+        "Node.js",
+        "Express.js",
+        "Socket.IO"
+    ],
+    "author": "Atanu",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.2",
+        "socket.io": "^4.8.1"
+    }
+}
